@@ -134,7 +134,7 @@ $ cd/htdocs |  $ cd/www
 
 # Clona o projeto dentro da pasta que criaste.
 # Abre o cmd.
-$ Clone <nome do projeto>
+$ Clone https://github.com/aniceto-jolela/CIPL.git
 
 # Importa o banco de dados no mySQL
 $ cd/xamp/htdocs/CIPL/bd/cipl.sql

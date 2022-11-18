@@ -1,0 +1,57 @@
+/*============== TODOS ====================*/
+body{font-size: 13px;}
+#foto{width:176px;}
+#republica{width:60px;}
+h3{
+    text-decoration:underline;
+    text-align:center;
+}
+#tabela{
+    border: 1px #040404 solid;
+    text-align:center;
+    margin: auto;
+}
+th,td{
+    border: 1px #040404 solid;
+    margin-left:-1px !important;
+    margin-top:-1px !important;
+    margin-right:-1px !important;
+    margin-bottom:-1px !important;
+    padding: 4px;
+}
+#data,#flh_n{text-align: right;}
+/* Cor na linha do ecarregado diferente (relatótio)*/
+.azul{background: #D6DBE0;} 
+.verde{background: #A5D491;}
+.vermelho{background: #DE888A}
+/*End cor*/
+/*============== SALÁRIO ====================*/
+#tabela_top{
+    border: 1px black solid;
+    margin-left: 400px;
+}
+.h_1{padding-left: 140px;}
+.h_2{padding-left: 140px;}
+.h_3{padding-left: 100px;}
+
+.b_1{padding-left: 180px;}
+.b_2{padding-left: 100px;}
+.b_3{padding-left: 128px;}
+.b_4{padding-left: 198px;}
+.b_5{padding-left: 248px;}
+/*============== SUBSÍDIOS, Aumento e Descontos ====================*/
+#tabela_top2{
+    border: 1px black solid;
+    margin-left: 250px;
+}
+.h_sub1{padding-left: 100px;}
+.h_sub2{padding-left: 50px;}
+
+
+/*============== Criança (cor na tabela) ====================*/
+#corTb{margin-left: 60%;}
+.corTbEncAzul{background: #D6DBE0;width:30px;height: 8px;display: inline-block;}
+.corTbEncVerde{background: #A5D491;width:30px;height: 8px;display: inline-block;}
+.corTbEncVermelho{background: #DE888A;width:30px;height: 8px;display: inline-block;}
+
+

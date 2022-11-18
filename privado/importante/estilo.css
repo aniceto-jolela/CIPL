@@ -1,0 +1,137 @@
+
+/*============== Arquivos ====================*/
+.corpo{
+    background: rgb(53, 154, 177);width: 100%;height: 100px;
+    color: white;
+}
+.frase{
+    text-align: center;margin-top: -20px;padding-top: 30px;
+}
+input,select{
+    border: gray 2px solid !important;
+}
+/*Index dos modulos */
+.vento{
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.informacao{
+    box-shadow: 10px 1px 50px 10px rgba(0, 0, 0, 0.1);
+}
+ .informacao:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.3);
+}
+button{font-weight: 800 !important;font-size: 16px !important; }
+button:hover{color: black !important;background: #fecd68 !important;}
+/* Botão de ficheiros */
+.file-button{
+    background: rgb(53, 154, 177) !important;
+    color: white !important;
+    font-weight: 400;
+}
+/* Todos os perfils do sistema */
+#perfil{
+    box-shadow: 10px 1px 50px 10px rgba(0, 0, 0, 0.1);
+}
+/*Titulo após o menu*/
+.cor_sumario{
+    color: #526066;
+}
+/*============== End todos ====================*/
+
+/*============== Administrador ====================*/
+
+/*============== Gestão de pessoal ====================*/
+.arquivo{
+    width: 200px;
+}
+.arquivo2{
+    width: 100% !important;
+    height: 100% !important;
+}
+.tb_cargo{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 20px;
+}
+.c_cargo{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.btn_cargo{
+    padding-top: 90px;
+    padding-bottom: 140px
+}
+.espaco{
+    background: red !important;
+    color: greenyellow;
+}
+.titulo{
+    background: #fecd68;
+    display: block;
+    text-align: center;
+}
+/*INDEX*/
+.icon_pessoal_cor{
+    position: absolute;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+   width: 140px;
+   height: 150px;
+}
+.icon_pessoal{
+    border-radius: 6px;
+}
+.cor_icon{color: white;}
+.informacao_alterada:hover,small:hover{color: black !important;}
+.separa{margin-bottom: 60px}
+
+/*============== Gestão de criança ====================*/
+/* Inserir criança*/
+#encarregado{
+    border: #359ab1 double 4px;    
+}
+#encarregado_titulo{
+    text-decoration: underline !important;
+}
+.guardar_c{
+    margin-left: 50%;
+}
+.btn{
+    background: #359ab1;
+}
+.lk:hover{
+    cursor: pointer !important;
+}
+.corTbEncAzul{background: #359ab1;width:30px;height: 8px;display: inline-block;}
+.corTbEncVerde{background: #99cc67;width:30px;height: 8px;display: inline-block;}
+.corTbEncVermelho{background: #DE888A;width:30px;height: 8px;display: inline-block;}
+
+
+
+
+
+/*============== Gestão de salário ====================*/
+#icon_salario_cor{
+    background: #99cc67;
+    width: 230px;
+    height: 110px;
+    position:absolute;
+    margin-left:-20px;
+    margin-top: -20px;
+}
+
+/*============== Tabela ====================*/
+
+
+#tabela{
+    background: red
+    
+}
+#info_{
+    background: yellow;
+   overflow-y: auto;
+   height: 30px !important
+}
