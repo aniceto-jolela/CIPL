@@ -1,79 +1,76 @@
 
 <div style='text-align:center '>
     <img src='readme/logo2.png' width=300 /><br/><br/>
-    <h1>Sistema de Gestão de Recursos Humano</h1>
+    <h1>Human Resources Management System</h1>
 </div>
 
-# Sumário
+# Summary
 
-* [Introdução](#introducao)
-* [Problemas](#problemas)
-* [Motivação](#motivacao)
-* [Objetivo Geral](#objetivo-geral)
-* Descrição do Projeto
-    1. [Descrição do Sistema](#descricao-do-sistema)
-    2. [Tecnologias](#tecnologias)
-    3. [Segurança](#seguranca)
-    4. [Simulação](#simulacao)
-* [Termo de uso](#termo-de-uso)
-* [Conclusão](#conclusao)
-* [Impacto Social](#impacto-social)
-* [Recomendações](#recomendacoes)
-* [Diagramas](#diagramas)
-* [Anexos](#anexos)
-
-
-
-# Introducao
+* [Introduction](#introduction)
+* [Problems](#problems)
+* [Motivation](#motivation)
+* [Main goal](#main-goal)
+* Project description
+    1. [System Description](#system-description)
+    2. [Technologies](#technologies)
+    3. [Safety](#safety)
+    4. [Simulation](#simulation)
+* [Terms of use](#terms-of-use)
+* [Conclusion](#conclusion)
+* [Social Impact](#social-impact)
+* [Recommendations](#recommendations)
+* [Diagrams](#diagrams)
+* [Attachments](#attachments)
 
 
-O Centro infantil os Pequenos Lideres é uma creche, que foi iniciado em 2017 que tem como objetivo de
-educar e controlar as crianças.
 
-Este sistema de gestão de recursos humanos que vem ajudar no Centro de infantil tanto na gestão dos
-funcionários , gestão de salários e também na gestão de crianças.
+# Introduction
+
+
+The Centro Infantil Os Pequenos Lideres is a day care center, which was started in 2017, with the objective of educating and controlling children.
+
+This human resources management system that comes to help in the Children's Center both in employee management, salary management and also in the management of children.
     
 
-# Problemas
+# Problems
 
 
- Os problemas de gestão de recursos humanos na creche causam:
+Human resource management problems in the day care center cause:
     
-- A falta de controlo nós funcionários
-- O custos altos em papeis
-- E a perdas documentos dos funcionários e das crianças.
+- The lack of control by employees.
+- High paper costs.
+- And the loss of documents from employees and children.
  
 
-# Motivacao
+# Motivation
 
 
-As minhas motivações foram:
+My motivations were:
 
-- A principal motivação é resolver o problema da creche
-- Garantir uma boa segurança nas crianças.
-- Ganhar experiência em gestão.
-
-
-# Objetivo-geral
+- The main motivation is to solve the daycare problem.
+- Ensure good safety in children.
+- Gain management experience.
 
 
-- Implementar o sistema de gestão de recursos humanos que possa resolver os problemas no centro
-infantil.
+# Main-goal
 
 
-# Descricao-do-sistema
+- Implement the human resource management system that can solve the problems in the children's center.
 
 
-Este sistema tem 4 módulos :
-
-1. Modulo Administrador : Permite fazer o controlo dos usuários do sistema pode eliminar, editar , criar
-e consultar.
-2. Modulo Crianças : permite fazer o controlo das crianças da creche.
-3. Modulo Pessoal : permite fazer o controlo dos funcionários da creche.
-4. Modulo Salario : permite gerir o salário dos funcionários da creche.
+# System-Description
 
 
-# Tecnologias
+This system has 4 modules:
+
+
+1. Administrator Module: Allows you to control system users, delete, edit, create and consult.
+2. Children's Module: allows you to control the children in the nursery.
+3. Personal Module: allows you to control the employees of the nursery.
+4. Salary Module: allows you to manage the salary of daycare workers.
+
+
+# Technologies
 
 
 <img src='readme/tecnologias/html.png' width=50 />
@@ -89,28 +86,27 @@ e consultar.
 <br/>
 
 
-# Seguranca
+# Safety
 
 
-### A nível de Base de Dados:
+### At the Database level:
 
-- 3FN (Normalização) – Normalizei a base de dados para, facilitar o controlo dos dados.
-- Utf8_general_ci – Permite usar caractere em maiúscula, minúscula e também com acento.
-
-
-### A nível de Sistema:
-
-- Criptografia - usei o MD5 na senha de cada usuário.
-- Manipulação de string - usei no controlo das datas e dos nomes dos usuários, funcionários e das
-crianças.
-- Required - Para obrigar o preenchimento de alguns campos do formulário.
-- Senha - Quando o usuário é novo por obrigação tem que alterar a sua senha .
-- preg_match - Faz o controlo dos ficheiros do sistema.
+- 3NF (Normalization) – I normalized the database to facilitate data control.
+- Utf8_general_ci – Allows using characters in uppercase, lowercase and also with an accent.
 
 
-# Simulacao
+### At the System level:
 
-[Local da ilustração do projeto](readme/simulacao/simulacao.mp4)
+- Encryption - I used MD5 on each user's password.
+- String manipulation - used to control dates and names of users, employees and children.
+-  Required - To force the completion of some form fields.
+- Password - When the user is new by obligation, he has to change his password.
+-  preg_match - Controls system files.
+
+
+# Simulation
+
+[Project illustration site](readme/simulacao/simulacao.mp4)
 
 <div style='text-align:center '>
     <video width="320" height="240" controls>
@@ -121,28 +117,28 @@ crianças.
 </div>
 
 
-# Termo-de-uso
+# Terms-of-use
 
 ```bash
-# Instale:
+# install:
 $ XAMP ou WAMP
 
-# Cria uma pasta com o mesmo nome do projeto,
-# esta pasta deve estar dentro do servidor local
+# creates a folder with the same name as the project,
+# this folder must be inside the local server
 #   XAMP    |   WAMP
 $ cd/htdocs |  $ cd/www
 
-# Clona o projeto dentro da pasta que criaste.
-# Abre o cmd.
+# Clone the project inside the folder you created.
+# Open cmd.
 $ Clone https://github.com/aniceto-jolela/CIPL.git
 
-# Importa o banco de dados no mySQL
+# Import the database in mySQL
 $ cd/xamp/htdocs/CIPL/bd/cipl.sql
 
-# Abri aplicação
+# opened application
 $ https://localhost/CIPL/privado/admin/index.php
 
-# Usuário | Senha
+#  User   | Password
 $ admin   | 1234
 
 
@@ -150,39 +146,39 @@ $ admin   | 1234
 
 
 
-# Conclusao
+# Conclusion
 
-Em suma este sistema pode garantir benefícios na creche uma delas são :
+In short, this system can guarantee benefits in the nursery, one of which are:
 
-- Uma boa segurança.
-- Um bom controlo.
-- Economizar documentos digitalizados, e outros recurso matérias.
-
-
-# Impacto-social
-
-- Garantir aos pais uma boa segurança das crianças.
-- Garantir uma boa organização na creche.
+- Good security.
+- Good control.
+- Save scanned documents, and other resource matters.
 
 
+# Social-Impact
+
+- Guarantee parents good safety of children.
+- Ensuring good organization in the nursery.
 
 
 
 
-# Recomendacoes
 
 
-Algumas recomendações que poderão tornar o programa melhor:
-
-* Uma aplicação mobile que conecta os encarregados para conseguir ter informações dos seus filhos a
-longa distância.
-* Na creche implementar um Sistema de Controlo que permite a entrada dos funcionários por meio de
-cartão de acesso.
-* Um site que permite expandir os serviços da creche.
+# Recommendations
 
 
+Some recommendations that could make the program better:
 
-# Diagramas
+* A mobile application that connects guardians to get information about their children to
+long distance.
+* In the day care center, implement a Control System that allows the entry of employees through
+access card.
+* A website that allows you to expand the daycare services.
+
+
+
+# Diagrams
 
 
 <img src='readme/diagramas/base-dados.png' width=200 />
@@ -191,7 +187,7 @@ cartão de acesso.
 <img src='readme/diagramas/salario.png' width=200 />
 <img src='readme/diagramas/criança.png' width=200 />
 
-# Anexos
+# Attachments
 
 
 <img src='readme/anexos/1.png' width=300 />
@@ -207,5 +203,5 @@ cartão de acesso.
 <img src='readme/anexos/11.png' width=300 />
 <img src='readme/anexos/12.png' width=300 />
 
-###### Autor : Aniceto Jolela 🥰
+###### Author : Aniceto Jolela 🥰
  Meu  | [Linkedin](https://www.linkedin.com/in/aniceto-jolela-076547184/))
