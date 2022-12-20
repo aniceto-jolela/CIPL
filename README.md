@@ -1,5 +1,5 @@
 
-<p style='text-align:center '>
+<p align='center'>
     <img src='readme/logo2.png' width=300 /><br/><br/>
     <h1>Human Resources Management System</h1>
 </p>
