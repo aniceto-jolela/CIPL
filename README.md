@@ -1,8 +1,8 @@
 
-<div style='text-align:center '>
+<p style='text-align:center '>
     <img src='readme/logo2.png' width=300 /><br/><br/>
     <h1>Human Resources Management System</h1>
-</div>
+</p>
 
 # Summary
 
@@ -204,4 +204,4 @@ access card.
 <img src='readme/anexos/12.png' width=300 />
 
 ###### Author : Aniceto Jolela 🥰
- Meu  | [Linkedin](https://www.linkedin.com/in/aniceto-jolela-076547184/))
+ My  | [Linkedin](https://www.linkedin.com/in/aniceto-jolela-076547184/))
